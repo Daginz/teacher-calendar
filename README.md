@@ -56,7 +56,7 @@ lint — linting (if ESLint is configured)
 typecheck — TypeScript check (if script added)
 
 Project Structure
-bash
+```bash
 Copy code
 src/
 ├─ app/
@@ -93,6 +93,7 @@ src/
 ├─ main.tsx
 └─ index.css
 Path alias: @ → src (Vite + TS paths).
+```
 
 TypeScript tip: with "verbatimModuleSyntax": true in tsconfig, import types using type-only syntax:
 ```bash
@@ -115,12 +116,13 @@ type Lesson = {
   bookedByOther?: boolean; // when true -> no interaction
 };
 Schedule intervals may cross midnight — utilities split them into per-day chunks in local TZ.
+```
 
 Slots are marked available/off-hours by intersecting with per-day availability.
 
 Environment Variables
+```bash
 ini
-Copy code
 # .env.local (do not commit)
 VITE_API_BASE_URL=https://api.example.com
 VITE_TIMEZONE=Europe/Warsaw   # optional; falls back to browser TZ
@@ -134,6 +136,7 @@ date-fns-tz v3: use toZonedTime / fromZonedTime
 Tailwind v4: no @tailwind base/components/utilities; use a single @import "tailwindcss";.
 
 React <input>: is a void element → no children and no dangerouslySetInnerHTML.
+```
 
 Roadmap
 1) Layout Refactor & Design System
@@ -225,14 +228,14 @@ PRs: short description + screenshots/video.
 
 License
 MIT (change if needed).
-
+```bash
 yaml
-Copy code
 
 ---
 
 ```gitignore
 # .gitignore
+```
 
 # Node
 node_modules/
