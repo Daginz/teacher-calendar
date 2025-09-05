@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -123,9 +122,7 @@
     @apply bg-background text-foreground;
   }
 }
-/* уже есть: @import "tailwindcss"; */
 
-/* Управление высотой строк в гриде */
 .calendar-grid { --row-min: 28px; }
 @media (max-width: 640px) { .calendar-grid { --row-min: 44px; } } /* комфортный тап */
 
