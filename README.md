@@ -139,6 +139,7 @@ React <input>: is a void element → no children and no dangerouslySetInnerHTML.
 ```
 
 Roadmap
+```bash
 1) Layout Refactor & Design System
 Adopt full shadcn/ui primitives (Button, Tooltip, ContextMenu, ToggleGroup).
 
@@ -225,9 +226,7 @@ Branches: main (prod), dev (integration), features → feat/*.
 Conventional Commits (feat:, fix:, chore:).
 
 PRs: short description + screenshots/video.
-
-License
-MIT (change if needed).
+```
 ```bash
 yaml
 
