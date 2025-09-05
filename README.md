@@ -1,6 +1,6 @@
 # README.md
 
-# Teacher Calendar (React + TypeScript + RTK + Tailwind v4)
+# Teacher Calendar (React + TypeScript + Tailwind v4)
 
 Interactive teacher schedule calendar:
 - 30-minute time slots;
