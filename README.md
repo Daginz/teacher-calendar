@@ -43,7 +43,7 @@ and enable the Vite plugin in vite.config.ts:
 ts
 Copy code
 import tailwind from "@tailwindcss/vite";
-// ...
+...
 plugins: [react(), tailwind()];
 Scripts
 dev — local development server (Vite)
