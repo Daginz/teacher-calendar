@@ -43,7 +43,7 @@ and enable the Vite plugin in vite.config.ts:
 ts
 Copy code
 import tailwind from "@tailwindcss/vite";
-...
+// ...
 plugins: [react(), tailwind()];
 Scripts
 dev — local development server (Vite)
@@ -96,9 +96,8 @@ src/
 Path alias: @ → src (Vite + TS paths).
 
 TypeScript tip: with "verbatimModuleSyntax": true in tsconfig, import types using type-only syntax:
+```bash
 
-ts
-Copy code
 import type { ComponentProps } from "react";
 Data Contracts
 ts
